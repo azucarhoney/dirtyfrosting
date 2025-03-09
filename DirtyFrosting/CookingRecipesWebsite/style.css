@@ -1,0 +1,803 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f8f4e5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #8b5e83;
+    color: white;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #8b5e83;
+}
+header {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 3rem;
+  }
+  
+  header p {
+    font-family: 'Arial', sans-serif;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  
+/* Recipe Categories Styling (Under Header) */
+#categories {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #categories h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #categories ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #categories ul li {
+    margin: 15px;
+  }
+  
+  #categories ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #4CAF50;
+    padding: 15px 25px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #categories ul li a:hover {
+    background-color: #45a049;
+  }
+  
+  /* Recipe Page (for content) */
+.recipe {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .recipe h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Reviews Section (Under Recipe) */
+  .reviews {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .reviews h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reviews textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .reviews input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .reviews input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reviews input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .review-list p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 15px;
+  }
+.recipe {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}.recipe {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.recipe img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.recipe h3 a {
+    text-decoration: none;
+    color: #8b5e83;
+}
+
+.recipe h3 a:hover {
+    color: #f4a261;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  #recipes {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #recipes .recipe {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #recipes img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  #recipes a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  #about {
+    padding: 30px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  #contact {
+    padding: 30px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  .search-bar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #categories {
+    padding: 30px;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  #categories h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #categories ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #categories ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  #categories ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #categories ul li a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  #featured {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  #featured h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .recipe-featured {
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  .recipe-featured img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .recipe-featured h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .recipe-featured p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .recipe-featured a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  #reviews {
+    padding: 30px;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  #reviews h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #reviews form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #reviews textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #reviews input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #reviews input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #reviews input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #newsletter {
+    padding: 30px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  #newsletter h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 1.1rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #newsletter input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #newsletter input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #social-media {
+    padding: 30px;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  #social-media h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #social-media a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+  
+  #social-media a:hover {
+    color: #4CAF50;
+  }
+  #contact-form {
+    padding: 30px;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  #contact-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  /* Recipe Preview Styling */
+.recipe-preview {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.recipe-preview img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-preview h3 a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #333;
+    display: block;
+    margin: 10px 0;
+}
+
+.recipe-preview p {
+    font-size: 1.1em;
+    color: #555;
+}
+  /* Recipe Section Styling */
+.recipe {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .recipe h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .recipe img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .recipe h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  .recipe ul,
+  .recipe ol {
+    padding-left: 20px;
+  }
+  
+  .recipe li {
+    margin: 10px 0;
+  }
+  
+  /* Reviews Section */
+  .reviews {
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .reviews h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reviews textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .reviews input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .reviews input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reviews input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .review-list p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 15px;
+  }
+  .about {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  .about img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+/* Dropdown Styling */
+.dropdown {
+    position: relative; /* Ensures the dropdown is positioned relative to the menu item */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Places the dropdown directly under the 'All Recipes' menu item */
+    left: 0;
+    background-color: #fff;
+    min-width: 200px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Makes sure the dropdown stays above other elements */
+}
+
+/* Dropdown items */
+.dropdown-content li {
+    width: 100%;
+}
+
+.dropdown-content a {
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+    text-align: left;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Smooth transition effect */
+.dropdown-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+/* About Page Styling */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  max-width: 900px;
+  margin: auto;
+}
+/* Contact Page Styling */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Contact Info Section */
+.contact-info {
+  flex: 1;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #444;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Contact Form Section */
+.contact-form {
+  flex: 1;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 10px;
+}
+
+/* Form Fields */
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #c9302c;
+}
+
+/* Social Media Icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+      flex-direction: column;
+      text-align: center;
+  }
+}
+/* Social Media Icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  font-size: 30px; /* Adjust size */
+  color: #e4405f; /* Instagram pink */
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #c13584; /* Darker Instagram color on hover */
+}
+#success-message {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff; /* White text */
+  background-color: #2ecc71; /* Green background */
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  display: none; /* Hidden by default */
+  width: fit-content;
+  margin: 20px auto; /* Center horizontally */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
