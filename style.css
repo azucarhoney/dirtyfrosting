@@ -1,0 +1,185 @@
+/* Color Palette */
+:root {
+  --blue: #1E4DB0;
+  --cream: #FFF7ED;
+  --pink: #FCD6DC;
+  --text-dark: #333;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--cream);
+  color: var(--text-dark);
+}
+
+.logo {
+  max-width: 220px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--pink);
+}
+
+.hero h1 {
+  font-family: 'Aprila', serif;
+  font-size: 2.5rem;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Manifesto Section */
+.manifesto {
+  padding: 60px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.manifesto h2 {
+  font-size: 2rem;
+  color: var(--blue);
+  margin-bottom: 20px;
+}
+
+.manifesto p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: var(--pink);
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .small {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+/* about page */
+.about-content {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 1.8rem;
+  color: var(--blue);
+  margin-top: 40px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+/* Nav bar */
+/* Navbar Styling */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-family: 'Aprila', serif;
+  font-size: 1.8rem;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e07a9d; /* light pink */
+}
+
+.hero {
+  margin-top: 80px;
+}
+/* connecing ig */
+.instagram-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff0f5; /* soft pink background */
+  color: var(--blue);
+}
+
+.instagram-section h2 {
+  font-family: 'Aprila', serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.insta-handle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.insta-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: var(--blue);
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.insta-button:hover {
+  background-color: #e07a9d; /* light pink hover */
+}

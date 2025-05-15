@@ -1,79 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dirty Frosting Bakery - Coming Soon</title>
-    <style>
-        body {
-            background-color: #faf2daf9;
-            color: #5c3d2e;
-            font-family: 'Playfair Display', serif;
-            text-align: center;
-            padding: 50px;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            background: rgb(255, 255, 255);
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        .logo {
-            width: 150px;
-            display: block;
-            margin: 0 auto 20px;
-        }
-        h1 {
-            font-size: 2.5rem;
-            position: relative;
-            display: inline-block;
-        }
-        p {
-            font-size: 1.2rem;
-        }
-        .social-links {
-            margin-top: 20px;
-        }
-        .social-links a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #5c3d2e;
-            font-size: 1.5rem;
-        }
-        .social-links a i {
-            font-size: 2rem;
-        }
-        .cookie {
-            position: absolute;
-            top: -40px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 50px;
-            animation: bounce 2s infinite;
-        }
-        @keyframes bounce {
-            0%, 100% { transform: translateX(-50%) translateY(0); }
-            50% { transform: translateX(-50%) translateY(-10px); }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirty Frosting</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
-        <img src="images/dirty-frosting.png" alt="Dirty Frosting Bakery Logo" class="logo">
-        <div style="position: relative; display: inline-block;">
-            <img src="images/cupcake.svg" alt="Bouncing Cookie" class="cookie">
-            <h1>Baking Soon...</h1>
-        </div>
-        <p>Something delicious is on its way! Stay tuned.</p>
-        <div class="social-links">
-            <a href="https://www.instagram.com/dirtyfrosting" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@dirtyfrostingbakery" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-        </div>
-    </div>
+    <nav class="navbar">
+  <div class="nav-content">
+    <a href="index.html" class="nav-logo">Dirty Frosting</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://www.instagram.com/dirtyfrosting" target="_blank">Instagram</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <header class="hero">
+    <img src="images/dirty-frosting.png" alt="Dirty Frosting Logo" class="logo" />
+    <h1>Welcome to Dirty Frosting</h1>
+    <p class="tagline">Perfectly Whipped, Just Like It Should Be.</p>
+  </header>
+
+  <section class="manifesto">
+    <h2>Our Sweet Philosophy</h2>
+    <p>
+     We believe in messes made with love and late-night ideas that stick like sugar. 
+     Dirty Frosting is about nostalgia, connection, and the joy of creating memories. 
+     Born in kitchens filled with laughter and flour-dusted counters, it’s a celebration of sweetness, creativity, and the kind of joy that lingers on your fingertips.
+    </p>
+  </section>
+
+  <section class="instagram-section">
+  <h2>Follow Us</h2>
+  <p class="insta-handle">@dirtyfrosting</p>
+  <a href="https://www.instagram.com/dirtyfrosting" target="_blank" class="insta-button">Visit Instagram</a>
+  <a href="https://www.tiktok.com/@dirtyfrostingbakery" target="_blank" class="insta-button">Visit TikTok</a>
+  <a href="https://www.youtube.com/@dirtyfrosting" target="_blank" class="insta-button">Visit YouTube</a>
+</section>
+
+
+  <footer class="footer">
+    <p>Follow us on <a href="https://www.instagram.com/dirtyfrosting" target="_blank">Instagram</a></p>
+    <p class="small">Dirty Frosting is a sugary little dream made real.</p>
+  </footer>
 </body>
 </html>
